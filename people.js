@@ -1,2 +1,6 @@
 const names = require(`./names`)
-const hobbies = require(`./hobbies`)
+const hobbiesFunction = require(`./hobbies`)
+
+const people = () => ( { fullNames: names, hobbies: hobbiesFunction} )
+
+people()

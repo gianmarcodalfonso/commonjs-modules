@@ -1,4 +1,3 @@
-const names = (a, b) => ({firstname: a, lastname: b})
-module.exports = {
-  names
-}
+const names = (firstname, lastname) => ({firstname, lastname})
+
+module.exports = names

@@ -1,6 +1,6 @@
-const names = require(`./names`)
-const hobbiesFunction = require(`./hobbies`)
+const names = require(`./names.js`)
+const hobbiesFunction = require(`./hobbies.js`)
 
-const people = () => ( { fullNames: names, hobbies: hobbiesFunction} )
+const people = () => ( { fullName: names(`aa`,`bb`), hobbies: hobbiesFunction(`aaa`,`bbb`,`ccc`)} )
 
-people()
+console.log(people());
